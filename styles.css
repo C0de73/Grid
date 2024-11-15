@@ -1,0 +1,28 @@
+.image-grid {
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+
+}
+
+.art-grid{
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    text-align: center;
+    background-color: blanchedalmond;
+
+}
+
+.flex-grid{
+
+    display: grid;
+    gap: 20px;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(2, auto);
+
+}
